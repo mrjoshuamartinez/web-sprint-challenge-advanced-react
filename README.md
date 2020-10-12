@@ -29,14 +29,30 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how to build stateful class components.
+CSR
+
+Consttructor
+Super
+Render
 
 2. Describe the different phases of the component lifecycle.
+-Component did mount: is the birth of the application and it represents the initial phase of the app
+-Component did update: is the when state or other parts of the application are updated with new data
+-Component did unmount: is the death of the app. It represents when the app is no longer running and rendering stuff to the DOM.
 
 3. Demonstrate an understanding of class component lifecycle methods.
+-App loads and the constructer and super will set state.
+-Depending on the app, state maybe may different things.
+-The app will go to componentDidMount and mount what start items are needed.
+-App will then render and keep render until app has done what it was designed to do.
+-App will unmount when finished.
 
 4. Define stateful logic.
+-Any code that uses state, with hooks, it's behaviour created with the use of one or more hooks. Custom or provided.
 
 5. Describe how to test a React component with React Testing Library.
+npm test
+with a test form app
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
